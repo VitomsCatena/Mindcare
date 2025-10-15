@@ -5,28 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | MindCare</title>
   <link rel="stylesheet" href="css/style.css">
-  <script defer src="js/script.js"></script>
-</head>
+  </head>
 <body>
   <header>
     <nav class="navbar">
       <img src="images/logo.png" class="logo">
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Tools & Techniques</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="blog.html">Blog</a></li>
         <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="contact">
-    <h1>Contact Us</h1>
-    <form id="contactForm">
-      <input type="text" id="name" placeholder="Your Name" required>
-      <input type="email" id="email" placeholder="Your Email" required>
-      <textarea id="message" placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-    <p id="formMessage"></p>
+  <section class="contact-info">
+    <h1>Connect With Mindcare</h1>
+    <p>We value feedback and collaboration. Here’s how you can get in touch or find urgent help.</p>
+
+    <div class="general-contact">
+        <h2>General Inquiries & Feedback</h2>
+        <p>For collaboration, questions, or general feedback, please email our team directly. **Note: We cannot offer individual professional advice.**</p>
+        <p><strong>Email:</strong> <a href="mailto:your.project.email@example.com">your.project.email@example.com</a> (Replace with your email address)</p>
+        
+        <h2>Technical Support & Contributions</h2>
+        <p>To report a bug, suggest a feature, or contribute code, please use our open-source platform:</p>
+        <p><strong>GitHub Issues:</strong> <a href="[Your GitHub Issues URL]" target="_blank">Report an Issue / Suggest a Feature</a></p>
+    </div>
+
+    <div id="crisis" class="crisis-section">
+        <h2>⚠️ Crisis and Emergency Support</h2>
+        <p class="emergency-notice">
+            **If you are facing a medical or mental health emergency, call your local emergency number (e.g., 911, 999, 112) immediately.** Mindcare staff are not available for emergency response.
+        </p>
+        
+        <div class="hotline-list">
+            <h4>Professional Hotlines</h4>
+            <ul>
+                <li><strong>Crisis Text Line (US/Canada/UK):</strong> Text HOME to 741741</li>
+                <li><strong>National Suicide Prevention Lifeline (US):</strong> Call or Text 988</li>
+                <li><strong>International Helplines:</strong> <a href="#" target="_blank">Find a helpline in your country</a></li>
+            </ul>
+        </div>
+    </div>
   </section>
 
   <footer>
