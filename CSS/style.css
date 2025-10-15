@@ -47,6 +47,11 @@
   p{ 
     color: #2e2b27;
   }
+
+  .btn:hover{
+       background-color: #2e2b27;
+       color: #17dde4;
+  }
   
   .btn {
     background: #fff; color: #4a90e2; padding: 0.8rem 1.5rem;
@@ -116,7 +121,7 @@
 
 /* Crisis Section Styling (for Contact page) */
 .crisis-section {
-    background: #dc3545; /* Red background for high visibility */
+    background: #b1323f; /* Red background for high visibility */
     color: white;
     padding: 2rem;
     margin-top: 2rem;
