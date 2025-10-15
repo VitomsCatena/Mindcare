@@ -8,6 +8,10 @@
     background: #f7f9fb;
     color: #333;
   }
+
+  .logo{
+      width: 50px;
+  }
   
   .navbar {
     display: flex; justify-content: space-between;
@@ -25,7 +29,9 @@
   }
   
   .nav-links a:hover, .nav-links .active {
-    color: #ffe;
+    color: rgb(13, 15, 12);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
   }
   
   .hero {
