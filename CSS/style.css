@@ -9,6 +9,10 @@
     background: #f7f9fb;
     color: #333;
   }
+
+   .logo{
+    width: 60px;
+   }
   
   .navbar {
     display: flex; justify-content: space-between;
