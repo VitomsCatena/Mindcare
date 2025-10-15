@@ -1,4 +1,4 @@
-/* ... (existing styles above) ... */
+/* ... (Layout styles ) ... */
 * {
     margin: 0; padding: 0; box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -21,7 +21,9 @@
   }
   
   .nav-links {
-    list-style: none; display: flex; gap: 1.5rem;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
   }
   
   .nav-links a {
@@ -30,7 +32,7 @@
   }
   
   .nav-links a:hover, .nav-links .active {
-    color: #ffe;
+    color: rgb(13, 19, 12);
   }
   
   .hero {
