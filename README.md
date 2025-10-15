@@ -19,7 +19,7 @@ Mindcare is an informational resource only and is not a substitute for professio
 🌐 Access the Website
 The live demo is hosted entirely using free services:
 
-Live Deployment: [Insert Link to your free hosted website here, e.g., mindcare-help.github.io]
+Live Deployment: (https://mindcare-jet.vercel.app/)
 
 🏗️ Local Development (For Contributors)
 Mindcare requires no server environment or build steps.
