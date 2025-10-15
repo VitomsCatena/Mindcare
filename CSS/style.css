@@ -1,78 +1,86 @@
-* {
-    margin: 0; padding: 0; box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  body {
-    line-height: 1.6;
-    background: #f7f9fb;
-    color: #333;
-  }
+/* ... (existing styles above) ... */
 
-  .logo{
-      width: 50px;
-  }
-  
-  .navbar {
-    display: flex; justify-content: space-between;
-    align-items: center; padding: 1rem 2rem;
-    background: #4a90e2; color: #fff;
-  }
-  
-  .nav-links {
-    list-style: none; display: flex; gap: 1.5rem;
-  }
-  
-  .nav-links a {
-    color: #fff; text-decoration: none;
-    transition: color .3s;
-  }
-  
-  .nav-links a:hover, .nav-links .active {
-    color: rgb(13, 15, 12);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-  }
-  
-  .hero {
-    background: url('../images/hero1.jpg') center/cover no-repeat;
-    color: #fff; text-align: center; padding: 5rem 2rem;
-  }
-  
-  .btn {
-    background: #fff; color: #4a90e2; padding: 0.8rem 1.5rem;
-    border-radius: 5px; text-decoration: none;
-    display: inline-block; margin-top: 1rem;
-  }
-  
-  .feature, .service-card {
-    background: #fff; padding: 1.5rem; border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    margin: 1rem; text-align: center;
-  }
-  
-  .features, .services {
-    display: flex; flex-wrap: wrap;
-    justify-content: center; padding: 2rem;
-  }
-  
-  .contact form {
-    display: flex; flex-direction: column;
-    width: 90%; max-width: 500px; margin: auto;
-  }
-  
-  .contact input, .contact textarea {
-    margin: 0.5rem 0; padding: 0.8rem;
-    border: 1px solid #ccc; border-radius: 4px;
-  }
-  
-  footer {
-    text-align: center; padding: 1rem; background: #4a90e2; color: white;
+/* --- NEW STYLES FOR CONTENT & SAFETY --- */
+
+/* Hero Text Styling */
+.hero-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* About/Disclaimer Card Styling */
+.about-content {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+.disclaimer-card {
+    background: #fff3cd; /* Light warning color */
+    border: 1px solid #ffeeba;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+    color: #664d03;
+}
+
+.disclaimer-card h2 {
+    color: #664d03;
+}
+
+/* Crisis Section Styling (for Contact page) */
+.crisis-section {
+    background: #dc3545; /* Red background for high visibility */
+    color: white;
+    padding: 2rem;
     margin-top: 2rem;
-  }
-  
-  @media(max-width: 768px) {
-    .features, .services { flex-direction: column; }
-    .nav-links { flex-direction: column; gap: 0.5rem; }
-  }
-  
+    border-radius: 8px;
+    text-align: center;
+}
+
+.crisis-section h2 {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.emergency-notice strong {
+    font-size: 1.1rem;
+}
+
+.crisis-button {
+    background: white;
+    color: #dc3545;
+    font-weight: bold;
+}
+
+/* Tool/Resource List Styling */
+.tools, .resources-content, .blog-content, .contact-info {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.resource-list h3 {
+    margin-top: 1.5rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+.resource-item, .post-summary {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Fix for existing .services class conflicting with new tool card */
+.tools .service-card {
+    text-align: left; /* Override existing center align for readability */
+}
